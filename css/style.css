@@ -1,0 +1,994 @@
+/* ==================================
+common css start
+=================== */
+
+/* @font-face {
+    font-family: 'solaimanlipinormal';
+    src: url('css/fonts/solaimanlipi_29-05-06-webfont.woff2') format('woff2'),
+         url('css/fonts/solaimanlipi_29-05-06-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+} */
+
+@font-face {
+    font-family: 'solaimanlipinormal';
+    src: url('.css/fonts/kalpurush ANSI.ttf') format('woff2'),
+         url('.css/fonts/kalpurush.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #EFEFEF;
+    /* font-family: 'solaimanlipinormal'; */
+    /* font-family: 'kal', Arial, sans-serif !important; */
+    font-family: 'solaimanlipinormal';
+}
+
+.container{
+    max-width: 1200px;
+}
+
+
+
+.icons{
+    background-color: #3B5999 !important;
+}
+
+
+.scroll i{
+    color: white;
+    font-weight: 700;
+    padding: 12px;
+    background-color: #CD201F;
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
+    position: fixed;
+}
+
+.social-navigation {
+    min-height: 45px;
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+.social-navigation ul {
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.social-navigation ul li:not(:last-child) {
+    margin-right: 4px;
+}
+
+.social-navigation ul li {
+    display: inline-block;
+    margin-right: 1px;
+}
+
+.social-navigation ul li a {
+    text-align: center;
+
+}
+
+.social-navigation ul li a i {
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    /* background-color: rgb(238, 78, 78); */
+}
+
+.page-item{
+    margin-left: 5px;
+    outline: none;
+    box-shadow: none;
+}
+
+.page-link{
+    color: #494B4E;
+    outline: none;
+    box-shadow: none;
+}
+
+
+
+.add{
+    overflow: hidden;
+    /* height: 200px; */
+}
+
+.add-add{
+    width: 100%;
+    height: 50px;
+}
+.add-add img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+a{
+    text-decoration: none;
+}
+
+.card{
+    margin-bottom: 20px;
+}
+
+
+.card img{
+    height: 100% !important;
+    width: 100% !important;
+}
+
+
+.card p{
+    font-size: 14px;
+    font-weight: bolder;
+    color: black;
+    transition: all linear 0.4s;
+    font-family: 'solaimanlipinormal';
+}
+
+
+
+
+
+.small{
+    font-size: 10px;
+    color: #BB1919;
+    margin-bottom: 15px;
+}
+.card p:hover{
+    color: #BB1919;
+}
+.over{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translate(20%, -350% );
+    z-index: 1000;
+}
+.overlay a{
+    font-size: 10px;
+    font-weight: 500;
+    color: white;
+    background: #BB1919;
+    padding: 3px;
+}
+.overlay-overlay{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translate(20%, -420% );
+    z-index: 1000;
+}
+
+.overlay-overlay a{
+    font-size: 10px;
+    font-weight: 500;
+    color: white;
+    background: #BB1919;
+    padding: 3px;
+}
+
+
+
+.header-title h2{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    position: relative;
+}
+.header-title h2::after{
+    content: '';
+    height: 3px;
+    width: 60px;
+    left: 0;
+    bottom: -8px;
+    background: #BB1919;
+    position: absolute;
+}
+
+
+
+.control{
+    width: 100%;
+    padding: 12px;
+    border-radius: 3px;
+    border: 1px solid #d1d0d0;
+}
+
+
+
+
+
+/* slider section start */
+.main-story-title {
+    text-align: left;
+
+}
+
+.main-story-title h2 {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    position: relative;
+    
+}
+
+.main-story-title h2::after {
+    content: '';
+    height: 3px;
+    width: 100px;
+    left: 0;
+    bottom: -10px;
+    background: red;
+    position: absolute;
+}
+
+.img-title {
+    padding-top: 290px;
+}
+
+.main-box {
+    height: 430px;
+    position: relative;
+}
+
+.main-title h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #f5e8e8;
+
+}
+
+.controller {
+    position: relative;
+}
+
+.controll {
+    position: absolute;
+    top: -15px;
+    right: 0px;
+}
+
+.controll i {
+    font-size: 20px;
+    background: white;
+    padding: 4px;
+    cursor: pointer;
+}
+
+/* slider section end */
+
+
+/* header css start */
+.top-masthead {
+    background: #353535;
+}
+
+.topbar-date {
+    margin-right: 15px;
+    height: 45px;
+    line-height: 45px;
+    display: inline-block;
+    padding-right: 20px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.social-navigation {
+    min-height: 45px;
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+.social-navigation ul {
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.social-navigation ul li:not(:last-child) {
+    margin-right: 4px;
+}
+
+.social-navigation ul li {
+    display: inline-block;
+    margin-right: 1px;
+}
+
+.social-navigation ul li a {
+    text-align: center;
+
+}
+
+.social-navigation ul li a i {
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    background-color: rgb(238, 78, 78);
+}
+
+
+/* ====== slider start here ======== */
+marquee img{
+    width: 30px;
+    height: 30px;
+}
+
+.side-header{
+    background-color: brown;
+    display: flex;
+}
+
+.spinner-grow{
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+}
+
+.slide-marquee{
+    background-color: white;
+}
+
+strong{
+    color: white;
+    display: block;
+}
+
+.slider-marquee a{
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 0 30px;
+    margin-top: 8px;
+}
+
+.slide-marquee a:hover{
+    color: brown;
+}
+
+/* ============ */
+/* =========== */
+.masthead-banner {
+    padding: 30px 0;
+}
+
+.masthead-banner .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.masthead-banner .site-branding {
+    text-align: left;
+    padding-right: 10px;
+}
+
+.banner-promotions-wrapper {
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* =========== navbar start here ================== */
+.navbar {
+    background: #bb1919;
+}
+.search-form{
+    margin-top: -200px;
+ }
+
+ .navbar-toggler{
+    border: 0px;
+    box-shadow: none;
+    outline: none;
+
+ }
+
+ .navbar-toggler{
+    color: white !important;
+ }
+
+ .navbar-toggler:focus{
+    box-shadow: none;
+    outline: none;
+    border: 0px;
+ }
+
+ .navbar-light .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='hsl(0, 4%, 87%)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+ }
+
+.navbar .navbar-collapse ul li a{
+    position: relative;
+}
+
+.navbar .navbar-collapse ul li a::after {
+    content: '';
+    height: 4px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    background: white;
+    position: absolute;
+    transition: all linear 0.5s;
+}
+
+.navbar .navbar-collapse ul li a::after {
+    content: '';
+    height: 4px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    background: white;
+    position: absolute;
+    transition: all linear 0.5s;
+}
+
+.navbar .navbar-collapse ul li a:hover::after{
+    width: 100%;
+}
+.navbar .navbar-collapse ul li a.active::after{
+    width: 100%;
+}
+
+.navbar .dropdown-content ul li a{
+    position: relative;
+}
+
+
+
+.navbar .navbar-collapse ul li a {
+    color: white !important;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    letter-spacing: 0;
+}
+
+.dropdown .btn{
+    box-shadow: none;
+    border-radius: 0;
+    color: white;
+}
+
+
+.dropdown-menu{
+    margin-left: -120px;
+    border-radius: 0%;
+    border: none;
+    background-color: #fff;
+}
+
+.search{
+    border: 1px solid #bbb8b8;
+    font-weight: 600;
+}
+
+.form-control{
+    font-weight: 700;
+    color: gray;
+    border: 0px !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.form-control:focus{
+    box-shadow: none !important;
+    outline: none !important;
+    border: 0 !important;
+}
+/* Dropdown Button */
+
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #353535;
+    min-width: 170px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 1px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+
+ .search-form{
+    margin-top: -200px;
+ }
+
+/* ============== navbar ends here ========================== */
+
+
+
+#Cg-wrapper .card{
+    position: relative;
+}
+
+#Cg-wrapper .card .overlay-wrapper{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translate(6%, -30%);
+}
+
+#Cg-wrapper .card .overlay-wrapper .over-box{
+    font-size: 10px;
+    font-weight: 500;
+    color: white;
+    background: #BB1919;
+    padding: 3px;
+}
+
+#Cg-wrapper .card  .over-text{
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+
+
+
+/* ================= main contents ===================== */
+.main-content-area .card{
+    position: relative;
+    overflow: hidden;
+}
+
+.main-content-area .card .overlay-box{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translate(5%, -30%);
+    z-index: 1000;
+}
+
+.main-content-area .card .overlay-box .over-box{
+    font-size: 10px;
+    font-weight: 500;
+    color: white;
+    background: #BB1919;
+    padding: 3px;
+}
+
+.main-content-area .card  .over-text{
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+
+/* ================= main contents ===================== */
+
+
+/* ============================= side top header start ==================== */
+.tablinks{
+    font-weight: 700;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    position: relative;
+    transition: all 0.9s;
+    background: none;
+}
+
+
+.tablinks::after{
+    content: "";
+    width: 0px;
+    height: 3px;
+    left: 0;
+    bottom: -5px;
+    background-color: #bb1919;
+    position: absolute;
+}
+.tablinks:hover::after{
+    width: 100%;
+}
+.tablinks.active::after{
+    width: 100%;
+}
+/* ============================= side top header ends ==================== */
+
+
+
+/* ======================= footer start here ================== */
+.cg-footer-section{
+    background-color: #494B4E;
+}
+
+.footer .footer-tags .tag{
+    padding: 5px 10px;
+    border: 1px solid #ffff;
+    margin-top: 5px;
+    display: inline-block;
+    transition: .5;
+}
+.footer .footer-tags .tag:hover{
+    background: red;
+    color: #0000;
+}
+.footer .footer-tags .tag a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 10px;
+    font-weight: 500;
+}
+.footer .footer-text p{
+    font-size: 15px;
+    color: #ffff;
+    line-height: 15px;
+}
+/* ============ */
+
+.sub-footer{
+    background: rgb(71, 69,69);
+    height: 50px;
+}
+
+.sub-footer .footer-box .footer-text{
+    text-align: start;
+}
+.sub-footer .footer-box .footer-text ul{
+    display: flex;
+    padding-left: 0px;
+}
+.sub-footer .footer-box .footer-text ul li{
+    list-style: none;
+    padding: 0 10px;
+}
+.sub-footer .footer-box .footer-text ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    color: #ffff;
+}
+
+.cg-footer-section .footer-main ul{
+    padding-left: 1px;
+}
+
+
+/* =============================== footer ends here ===================== */
+
+
+
+
+
+
+
+
+/* ========== 2nd page =========== */
+.cg-main-contain-section .header-text span a,
+.main-contain-section .header-text span a{
+    font-size: 14px;
+    /* margin-right: 5px; */
+    padding: 5px;
+    color: #241414;
+}
+
+.sub-menu{
+    margin-top: 10px;
+    padding: 17px;
+}
+.sub-menu h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.entry-content .printer{
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    line-height: 15px;
+    background-color: #27A68A;
+    padding: 3px;
+}
+
+.entry-content p{
+    color: lighter;
+    font-size: 14px;
+    font-weight: 600;
+    gap: 20px;
+    line-height: 20px;
+    font-family: 'solaimanlipinormal';
+}
+
+.btn-post-comment{
+    background-color: #bb1919;
+    border: none;
+    box-shadow: none;
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+    font-family: 'solaimanlipinormal';
+}
+
+.over{
+    overflow: hidden;
+}
+
+
+.z-index-0{
+    z-index: 0;
+}
+
+
+
+
+
+
+/* ============= media query ========== */
+
+@media (max-width: 576px) { 
+    .device-center{
+    text-align: center !important;
+    }
+
+    .head-icon{
+        display: flex;
+        justify-content: center;
+    }
+
+    .site-branding{
+        display: flex;
+        justify-content: center;
+    }
+
+    .cg-footer-icon{
+        display: flex;
+        justify-content: center;
+    }
+
+    .dropdown{
+        position: relative;
+    }
+
+    .form-dropdown{
+        position: absolute;
+        top: 10px;
+        right: 0;
+    }
+
+    .dropdown-menu{
+        left: -480px !important;
+        margin-top: 7px !important;
+    }
+
+    .dropdown-content {
+        margin-top: -5px !important;
+        margin-left: 70px;
+        width: 100%;
+      }
+
+
+    .navbar-nav{
+        margin-left: 30px;
+        margin-top: 20px !important;
+    }
+
+    .navbar-nav li a{
+        margin-bottom: 15px;
+    }
+
+    .navbar .navbar-collapse ul li a::after {
+        bottom: -9px;
+    }
+
+    .spiner{
+        width: 20% !important;
+    }
+
+    .side-heade .text{
+        width: 80% !important;
+        margin-left: 15px !important;
+    }
+
+}
+
+
+@media (max-width: 768px) { 
+    .device-center{
+    text-align: center !important;
+    }
+
+    .head-icon{
+        display: flex;
+        justify-content: center;
+    }
+
+    
+    .site-branding{
+        display: flex;
+        justify-content: center;
+    }
+
+    .cg-footer-icon{
+        display: flex;
+        justify-content: center;
+    }
+
+    .cg-img img{
+        width: 100%;
+    }
+
+    
+    .dropdown{
+        position: relative;
+    }
+
+    .form-dropdown{
+        position: absolute;
+        top: 10px;
+        right: 0;
+    }
+
+       .dropdown-menu{
+        left: -480px !important;
+        margin-top: 7px !important;
+    }
+
+    .dropdown-content {
+        margin-top: -5px !important;
+        margin-left: 70px;
+        width: 100%;
+      }
+
+    .promotion-section{
+        overflow: hidden;
+    }
+
+    #Cg-national-news-wrapper .card .overlay-wrapper{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        /* transform: translate(6%, -90%); */
+    }
+
+    .navbar-nav{
+        margin-left: 30px;
+        margin-top: 20px !important;
+    }
+
+    .navbar-nav li a{
+        margin-bottom: 15px;
+    }
+
+    .navbar .navbar-collapse ul li a::after {
+        bottom: -9px;
+    }
+
+    .spiner{
+        width: 15% !important;
+    }
+
+    .side-heade .text{
+        width: 85% !important;
+    }
+
+
+}
+
+
+@media (max-width: 992px) { 
+    .footer-main{
+        display: flex;
+        justify-content: center;
+    }
+
+    .cg-footer-icon{
+        display: flex;
+        justify-content: center;
+    }
+
+    .side-header{
+        margin-bottom: 20px;
+    }
+
+    
+    .dropdown{
+        position: relative;
+    }
+
+    .form-dropdown{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    .dropdown-menu{
+        margin-left: 200px;
+    }
+
+    .dropdown-menu{
+        left: -480px !important;
+        margin-top: 7px !important;
+    }
+
+    .dropdown-content {
+        margin-top: -5px !important;
+        margin-left: 70px;
+        width: 100%;
+        padding: 20px;
+      }
+
+    .navbar-nav{
+        margin-left: 30px;
+        margin-right: 20px !important;
+        margin-top: 20px !important;
+    }
+
+    .navbar-nav li a{
+        margin-bottom: 15px;
+    }
+
+    .navbar .navbar-collapse ul li a::after {
+        bottom: -9px;
+    }
+
+    .spiner{
+        width: 5% !important;
+    }
+
+    .side-heade .text{
+        width: 95% !important;
+    }
+
+    .card-body{
+        width: 100% !important;
+        height: 100%;
+        display: flex !important;
+        flex-direction: column !important;
+        /* align-items: center !important; */
+        justify-content: center !important;
+    }
+ }
